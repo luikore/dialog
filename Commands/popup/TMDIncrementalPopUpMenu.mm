@@ -44,8 +44,9 @@
 	{
 		if(keyCode == key_movements[i].key)
 		{
-			int row = std::max(0, std::min([self selectedRow] + key_movements[i].rows, [self numberOfRows]-1));
-			[self selectRow:row byExtendingSelection:NO];
+			int row = std::max<long>(0, std::min([self selectedRow] + key_movements[i].rows, [self numberOfRows]-1));
+            NSIndexSet* rows = [NSIndexSet indexSetWithIndex:row];
+            [self selectRowIndexes:rows byExtendingSelection:NO];
 			[self scrollRowToVisible:row];
 
 			return YES;
@@ -166,7 +167,7 @@
 	[theTableView addTableColumn:column];
 	[column setWidth:[theTableView bounds].size.width];
 
-	[theTableView setDataSource:self];
+	[theTableView setDataSource:(id <NSTableViewDataSource>)self];
 	//[theTableView setDelegate:self];
 	[scrollView setDocumentView:theTableView];
 
@@ -445,8 +446,13 @@
 	NSMutableDictionary* selectedItem = [[[filtered objectAtIndex:[theTableView selectedRow]] mutableCopy] autorelease];
 
 	NSString* candidateMatch = [selectedItem objectForKey:@"match"] ?: [selectedItem objectForKey:@"display"];
-	if([[self filterString] length] < [candidateMatch length])
-		insert_text([candidateMatch substringFromIndex:[[self filterString] length]]);
+    
+    for (int i=0; i<[[self filterString] length]; i++) {
+        delete_backward();
+    }
+    insert_text(candidateMatch);
+//	if([[self filterString] length] < [candidateMatch length])
+//		insert_text([candidateMatch substringFromIndex:[[self filterString] length]]);
 
 	if(outputHandle)
 	{

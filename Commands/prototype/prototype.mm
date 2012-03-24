@@ -1,4 +1,3 @@
-#import "TMDChameleon.h"
 #import "../../Dialog2.h"
 #import "../../TMDCommand.h"
 
@@ -17,6 +16,7 @@
 {
 	NSDictionary* args = [proxy parameters];
 
+    /* disable register because the OC-1 code won't work
 	if(NSDictionary* values = [args objectForKey:@"register"])
 	{
 		// FIXME this is needed only because we presently can’t express argument constraints (CLIProxy would otherwise correctly validate/convert CLI arguments)
@@ -26,6 +26,7 @@
 		enumerate([values allKeys], id key)
 			[TMD2Chameleon createSubclassNamed:key withValues:[values objectForKey:key]];
 	}
+    */
 
 	if(NSString* show = [args objectForKey:@"show"])
 	{

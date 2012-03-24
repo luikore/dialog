@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172138720FB6C8E9001D3EAA /* prototype.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1721386F0FB6C8E9001D3EAA /* prototype.mm */; };
-		172138730FB6C8E9001D3EAA /* TMDChameleon.mm in Sources */ = {isa = PBXBuildFile; fileRef = 172138710FB6C8E9001D3EAA /* TMDChameleon.mm */; };
 		172138960FB6D334001D3EAA /* popup.mm in Sources */ = {isa = PBXBuildFile; fileRef = 172138930FB6D334001D3EAA /* popup.mm */; };
 		172138970FB6D334001D3EAA /* TMDIncrementalPopUpMenu.mm in Sources */ = {isa = PBXBuildFile; fileRef = 172138950FB6D334001D3EAA /* TMDIncrementalPopUpMenu.mm */; };
 		1721389C0FB6D359001D3EAA /* TMDHTMLTips.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1721389A0FB6D359001D3EAA /* TMDHTMLTips.mm */; };
@@ -18,6 +16,7 @@
 		175614490EDEA3B80053AC52 /* images.mm in Sources */ = {isa = PBXBuildFile; fileRef = 175614480EDEA3B80053AC52 /* images.mm */; };
 		1756144D0EDEA96F0053AC52 /* defaults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1756144C0EDEA96F0053AC52 /* defaults.mm */; };
 		177E4DA309132A0F0064163D /* Dialog2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 177E4DA209132A0F0064163D /* Dialog2.mm */; };
+		19A33625151E170C00562844 /* prototype.mm in Sources */ = {isa = PBXBuildFile; fileRef = 19A33624151E170C00562844 /* prototype.mm */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		910713760D99768B0091C83C /* TextMate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 910713750D99768B0091C83C /* TextMate.mm */; };
@@ -49,9 +48,6 @@
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		1721386F0FB6C8E9001D3EAA /* prototype.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = prototype.mm; path = Commands/prototype/prototype.mm; sourceTree = "<group>"; };
-		172138700FB6C8E9001D3EAA /* TMDChameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDChameleon.h; path = Commands/prototype/TMDChameleon.h; sourceTree = "<group>"; };
-		172138710FB6C8E9001D3EAA /* TMDChameleon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TMDChameleon.mm; path = Commands/prototype/TMDChameleon.mm; sourceTree = "<group>"; };
 		172138930FB6D334001D3EAA /* popup.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = popup.mm; path = Commands/popup/popup.mm; sourceTree = "<group>"; };
 		172138940FB6D334001D3EAA /* TMDIncrementalPopUpMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDIncrementalPopUpMenu.h; path = Commands/popup/TMDIncrementalPopUpMenu.h; sourceTree = "<group>"; };
 		172138950FB6D334001D3EAA /* TMDIncrementalPopUpMenu.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TMDIncrementalPopUpMenu.mm; path = Commands/popup/TMDIncrementalPopUpMenu.mm; sourceTree = "<group>"; };
@@ -65,6 +61,7 @@
 		1756144C0EDEA96F0053AC52 /* defaults.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = defaults.mm; path = Commands/defaults.mm; sourceTree = "<group>"; };
 		177E4DA109132A0F0064163D /* Dialog2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dialog2.h; sourceTree = "<group>"; };
 		177E4DA209132A0F0064163D /* Dialog2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Dialog2.mm; sourceTree = "<group>"; };
+		19A33624151E170C00562844 /* prototype.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = prototype.mm; sourceTree = "<group>"; };
 		32DBCF630370AF2F00C91783 /* Dialog2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dialog2_Prefix.pch; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* Dialog2.tmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dialog2.tmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,16 +167,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		172138740FB6C8EE001D3EAA /* prototype */ = {
-			isa = PBXGroup;
-			children = (
-				172138710FB6C8E9001D3EAA /* TMDChameleon.mm */,
-				172138700FB6C8E9001D3EAA /* TMDChameleon.h */,
-				1721386F0FB6C8E9001D3EAA /* prototype.mm */,
-			);
-			name = prototype;
-			sourceTree = "<group>";
-		};
 		172138980FB6D338001D3EAA /* popup */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +195,15 @@
 				172138AE0FB6D540001D3EAA /* nib.mm */,
 			);
 			name = nib;
+			sourceTree = "<group>";
+		};
+		19A33623151E170C00562844 /* prototype */ = {
+			isa = PBXGroup;
+			children = (
+				19A33624151E170C00562844 /* prototype.mm */,
+			);
+			name = prototype;
+			path = Commands/prototype;
 			sourceTree = "<group>";
 		};
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
@@ -243,10 +239,10 @@
 		91D6F8FC0CF23E46000F8170 /* Commands */ = {
 			isa = PBXGroup;
 			children = (
+				19A33623151E170C00562844 /* prototype */,
 				91D6F95E0CF2BD26000F8170 /* Utilities */,
 				172138B30FB6D544001D3EAA /* nib */,
 				172138980FB6D338001D3EAA /* popup */,
-				172138740FB6C8EE001D3EAA /* prototype */,
 				1721389E0FB6D35C001D3EAA /* tooltip */,
 				91D6F8FD0CF23E51000F8170 /* alert.mm */,
 				1756144C0EDEA96F0053AC52 /* defaults.mm */,
@@ -313,8 +309,11 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Dialog2" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -377,14 +376,13 @@
 				91234F960D9A84E900E346BA /* insert.mm in Sources */,
 				175614490EDEA3B80053AC52 /* images.mm in Sources */,
 				1756144D0EDEA96F0053AC52 /* defaults.mm in Sources */,
-				172138720FB6C8E9001D3EAA /* prototype.mm in Sources */,
-				172138730FB6C8E9001D3EAA /* TMDChameleon.mm in Sources */,
 				172138960FB6D334001D3EAA /* popup.mm in Sources */,
 				172138970FB6D334001D3EAA /* TMDIncrementalPopUpMenu.mm in Sources */,
 				1721389C0FB6D359001D3EAA /* TMDHTMLTips.mm in Sources */,
 				1721389D0FB6D359001D3EAA /* tooltip.mm in Sources */,
 				172138B10FB6D540001D3EAA /* nib.mm in Sources */,
 				172138B20FB6D540001D3EAA /* TMDNibController.mm in Sources */,
+				19A33625151E170C00562844 /* prototype.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +421,6 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -431,6 +428,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = Dialog2;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = tmplugin;
 				ZERO_LINK = YES;
 			};
@@ -439,6 +437,7 @@
 		1DEB913C08733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -446,6 +445,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = Dialog2;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = tmplugin;
 			};
 			name = Release;
@@ -453,34 +453,31 @@
 		1DEB913F08733D840010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Debug;
 		};
 		1DEB914008733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
-				GCC_VERSION = 4.0;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Release;
 		};
 		91D6F8EC0CF23C24000F8170 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -492,8 +489,8 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = tm_dialog2;
+				SDKROOT = "";
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -501,12 +498,13 @@
 		91D6F8ED0CF23C24000F8170 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = /usr/local/bin;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -514,8 +512,8 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = tm_dialog2;
+				SDKROOT = "";
 				ZERO_LINK = NO;
 			};
 			name = Release;

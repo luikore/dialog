@@ -10,6 +10,13 @@ void insert_text (NSString* someText)
 		[textView insertText:someText];
 }
 
+void delete_backward ()
+{
+	if(NSTextView* textView = [NSApp targetForAction:@selector(insertText:)]) {
+        [textView deleteBackward:nil];
+    }
+}
+
 void insert_snippet (NSString* aSnippet)
 {
 	if(id textView = [NSApp targetForAction:@selector(insertSnippetWithOptions:)])
